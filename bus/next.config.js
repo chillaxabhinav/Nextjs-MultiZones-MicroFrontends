@@ -1,4 +1,4 @@
-const config = (phase, {defaultConfig}) =>  {    
+const config = (phase, {defaultConfig}) => {
     return {
         ...defaultConfig,
         basePath : '/bus'

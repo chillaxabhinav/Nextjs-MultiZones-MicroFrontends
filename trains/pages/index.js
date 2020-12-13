@@ -10,6 +10,10 @@ const Trains = () => {
             <Link href="/ticket">
                 <a>Go to Train ticket</a>
             </Link>
+            <br/>
+            <a href="/">
+                Go to home
+            </a>
         </>
     )
 }
