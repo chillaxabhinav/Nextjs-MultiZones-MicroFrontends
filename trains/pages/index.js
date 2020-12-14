@@ -1,7 +1,14 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Link from 'next/link';
+import cookies,{parseCookies} from 'nookies';
 
 const Trains = () => {
+
+    useEffect(() => {
+        const my = parseCookies(null,'myCookie');
+        console.log(my);
+    })
+
     return (
         <>
             <h1>

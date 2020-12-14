@@ -8,4 +8,13 @@ const Notes = () => {
     )
 }
 
+export async function getServerSideProps(){
+    
+    console.log('I am server side getserver side props');
+
+    return {
+        props : {}
+    }
+}
+
 export default Notes;
